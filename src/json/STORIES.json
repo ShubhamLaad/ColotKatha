@@ -1,0 +1,17 @@
+[
+    {
+        "imgUrl": "/images/sea.jpg",
+        "heading": "heading",
+        "description": "description"
+    },
+    {
+        "imgUrl": "/images/women.jpg",
+        "heading": "heading",
+        "description": "description"
+    },
+    {
+        "imgUrl": "/images/jaipur.jpg",
+        "heading": "heading",
+        "description": "description"
+    }
+]
