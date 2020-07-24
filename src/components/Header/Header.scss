@@ -4,4 +4,28 @@ header {
     right: 0;
     top: 0;
     z-index: 10;
+    background: #1c3334;
+    .container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.logo {
+    width: 160px;
+}
+
+.nav-list {
+    a {
+        color: white;
+        padding: 15px;
+        display: block;
+        &:hover,
+        &.active {
+            color: #d1e8e2;
+        }
+        &.active {
+            text-decoration: underline;
+        }
+    }
 }

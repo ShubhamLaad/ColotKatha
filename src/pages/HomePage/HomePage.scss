@@ -1,18 +1,16 @@
 .banner-section {
-    width: 60%;
-    margin: auto;
+    padding: var(--space2x) 0;
     .img-bg {
         height: 100px;
     }
-}
-
-.img-section .card {
-    border: none;
-    border-radius: 10px;
+    @media (min-width: 992px) {
+        width: 60%;
+        margin: auto;
+    }
 }
 
 .card-list {
     li {
-        margin-bottom: 20px;
+        margin-bottom: var(--space);
     }
 }

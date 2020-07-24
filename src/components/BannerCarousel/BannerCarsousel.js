@@ -11,7 +11,7 @@ export default function BannerCarousel() {
             infinite
             speed={500}
             fade
-            autoplaySpeed={1000}
+            autoplaySpeed={2000}
             touchMove
         >
             {CAROUSEL.map(img => <div key={img.heading}>

@@ -2,8 +2,8 @@ import React from 'react';
 
 import './Layout.scss';
 
-export function Container({ children }) {
-  return <div className="container">{children}</div>
+export function Container(props) {
+  return <div className={`container ${props.className || ''}`}>{props.children}</div>
 }
 
 export function Row({ children }) {
