@@ -2,9 +2,9 @@
     .img-bg {
         height: 100px;
     }
+    margin: 0 auto var(--space);
     @media (min-width: 992px) {
         width: 60%;
-        margin: 0 auto var(--space);
     }
 }
 

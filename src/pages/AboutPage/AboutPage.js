@@ -14,7 +14,7 @@ export default function AboutPage() {
           <ul>
 
             <li> Hey!</li>
-            <li>With quarantine abound, we all have had time to ourselves, and each of us has spent it in our own ways trying to keep our minds working and selves busy. For me, that space was photography, a craft which I spent time improving upon by reading books and taking courses of photography, editing and perspective designing curated by @battatowada.
+            <li>We all have had time to ourselves, and each of us has spent it in our own ways trying to keep our minds working and selves busy. I'm sure somewhere it will say they have had a passion for photography since a very young age, a craft which I spent time improving upon by reading books and reseaching more about photography, editing and perspective designing.
 
             </li>
             <li>
@@ -26,7 +26,7 @@ export default function AboutPage() {
             <li>
               My goal is to form a community of photographers and artists who want to learn and improve upon their craft and help them find that something which would make you see the extraordinary within the ordinary.
           </li>
-            <li>The ability to truly capture monotony...</li>
+            <li>The ability to truly capture monotony.</li>
           </ul>
 
 

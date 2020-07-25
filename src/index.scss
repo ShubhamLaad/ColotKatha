@@ -36,8 +36,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin: 0;
+    color: #1c3334;
 }
 
 p {
@@ -64,14 +64,6 @@ a {
 .bg-img {
     background: gray center/cover no-repeat;
     height: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    margin-top: 0;
 }
 
 .hide {

@@ -1,13 +1,13 @@
 import React from 'react';
 import './Footer.scss'
 import { Container } from '../Layout/Layout';
-import { Facebook, Insta, Youtube, Gmail, Linkedin } from '../Icons/Icons';
+import { Facebook, Insta, Youtube, Linkedin } from '../Icons/Icons';
 
 const SOCIAL_ICONS = [
   { icon: <Insta />, title: 'Insta', href: 'https://www.instagram.com/color_katha' },
   { icon: <Facebook />, title: 'Facebook', href: 'https://www.facebook.com/Colorkatha' },
   { icon: <Youtube />, title: 'Youtube', href: 'https://www.youtube.com/user/ujjvallaad' },
-  { icon: <Gmail />, title: 'Gmail', href: 'mailto:ujjvallaad@gmail.com' },
+  // { icon: <Gmail />, title: 'Gmail', href: 'mailto:ujjvallaad@gmail.com' },
   { icon: <Linkedin />, title: 'Linkedin', href: 'https://www.linkedin.com/in/ujjwal-laad-3a3225111' },
 ]
 
