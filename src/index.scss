@@ -8,6 +8,7 @@
     --headerHeight: 60px;
     --space: 20px;
     --space2x: 40px;
+    --footerHeight: 60px;
 }
 
 html {
@@ -26,6 +27,7 @@ body {
     min-height: 100%;
     position: relative;
     padding-top: var(--headerHeight);
+    padding-bottom: var(--footerHeight);
 }
 
 h1,
@@ -87,4 +89,33 @@ h5 {
 
 .text-center {
     text-align: center;
+}
+
+.clearfix {
+    &::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+.shadow {
+    box-shadow: 10px 10px 15px -9px rgba(28, 51, 52, 1);
+    border-radius: 10px;
+}
+
+.img-bg {
+    padding-top: 60%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccbcb;
 }

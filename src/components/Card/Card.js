@@ -4,7 +4,7 @@ import './Card.scss'
 const Card = ({ imgUrl, heading, description }) => {
   return (
     <div className="card">
-      <div className="img-bg" style={{ backgroundImage: `url(${imgUrl})` }}></div>
+      <div className="img-bg shadow" style={{ backgroundImage: `url(${imgUrl})` }}></div>
       <h3>{heading}</h3>
       <p>{description}</p>
     </div >

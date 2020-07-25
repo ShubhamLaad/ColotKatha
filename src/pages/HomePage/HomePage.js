@@ -12,8 +12,10 @@ export default function HomePage() {
       <main>
         <section className="banner-section">
           <Container>
-            <BannerCarousel />
-
+            <div className="banner-wrap">
+              <BannerCarousel />
+              <h1>Making the art of photography, simple and very much possible</h1>
+            </div>
           </Container>
         </section>
         <section className="img-section">

@@ -5,9 +5,11 @@ header {
     top: 0;
     z-index: 10;
     background: #1c3334;
+    height: var(--headerHeight);
     .container {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 }
 
