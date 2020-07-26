@@ -8,8 +8,10 @@ export default function AboutPage() {
       <Container>
         <h1>About Us</h1>
         <div className="clearfix">
-          <div className="float-right ujjwal-image shadow">
-            <img src="/images/ujjwal.jpg" alt="Ujjwal" className="img-responsive" />
+          <div className="float-right ujjwal-image text-center">
+            <div className="mb-10 shadow" title="Ujjwal Laad">
+              <img src="/images/ujjwal.jpg" alt="Ujjwal" className="img-responsive" />
+            </div>
           </div>
           <ul>
 
