@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
-import CAROUSEL from '../../json/CAROUSEL.json'
+import STORIES from '../../json/STORIES.json'
 
 export default function BannerCarousel() {
     return (
@@ -14,8 +14,8 @@ export default function BannerCarousel() {
             autoplaySpeed={2000}
             touchMove
         >
-            {CAROUSEL.map(img => <div key={img.heading}>
-                <div className="img-bg" style={{ backgroundImage: `url(${img.imgUrl})` }}></div>
+            {STORIES.filter(story => story.carsousel).map(story => <div key={story.heading}>
+                <div className="img-bg" style={{ backgroundImage: `url(${story.imgUrl})` }}></div>
             </div>)}
 
         </Slider>

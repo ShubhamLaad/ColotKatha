@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <main className="AboutPage">
       <Container>
-        <h1 className="text-center">About Us</h1>
+        <h1>About Us</h1>
         <div className="clearfix">
           <div className="float-right ujjwal-image shadow">
             <img src="/images/ujjwal.jpg" alt="Ujjwal" className="img-responsive" />

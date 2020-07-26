@@ -40,6 +40,11 @@ h6 {
     color: #1c3334;
 }
 
+h1 {
+    margin: var(--space) auto;
+    text-align: center;
+}
+
 p {
     margin: 0;
 }
@@ -101,6 +106,9 @@ a {
 .shadow {
     box-shadow: 10px 10px 15px -9px rgba(28, 51, 52, 1);
     border-radius: 10px;
+    img {
+        border-radius: 10px;
+    }
 }
 
 .img-bg {

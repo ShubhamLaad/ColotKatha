@@ -1,16 +1,26 @@
 import React from 'react';
-import { Container } from '../../components/Layout/Layout';
+import { Container, Row } from '../../components/Layout/Layout';
 import { useParams } from 'react-router-dom';
 import STORIES from '../../json/STORIES.json'
 
 export default function DetailsPage() {
   const { index } = useParams();
-  const storyDetails = STORIES[index]
+  const { heading, imgUrl, place } = STORIES[index]
 
   return (
     <main>
       <Container>
-        <img width="100%" src={storyDetails.imgUrl} alt={storyDetails.heading} />
+        <h1>{heading}</h1>
+        <Row>
+          <div className="col-sm-6">
+            <div className="shadow">
+              <img width="100%" src={imgUrl} alt={heading} />
+            </div>
+          </div>
+          <div className="col-sm-6">
+            <h3>{place}</h3>
+          </div>
+        </Row>
       </Container>
     </main>
   );

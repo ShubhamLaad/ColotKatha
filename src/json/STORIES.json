@@ -2,32 +2,40 @@
     {
         "imgUrl": "https://scontent-bom1-1.cdninstagram.com/v/t51.2885-15/e35/s240x240/34204653_212519202878326_6454666234716749824_n.jpg?_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=Tb6LNwLECK0AX-CGzzo&_nc_tp=15&oh=28fc94ed1db4c17b544e58c5863495d1&oe=5F449913&ig_cache_key=MTc5NTAxNjc2ODU0NTQ5NTY1NA%3D%3D.2",
         "heading": "Rolls the eyes",
-        "description": "",
-        "place": ""
+        "place": "Indore",
+        "description": ""
     },
     {
         "imgUrl": "/images/Guwahati.jpg",
         "heading": "Strange illusion",
+        "place": "Guwahati",
         "description": ""
     },
     {
         "imgUrl": "https://scontent-bom1-2.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/97086781_244194980164271_767346578308612266_n.jpg?_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=111&_nc_ohc=pe3UP2BlPKQAX_EzTae&oh=f39c613df986e6c0f990ae5313489226&oe=5F455528",
-        "heading": " Curiosity ",
+        "heading": "Curiosity",
+        "place": "Rajwada(Indore)",
         "description": ""
     },
     {
         "imgUrl": "/images/sea.jpg",
         "heading": "Capture monotony",
-        "description": ""
+        "place": "Sea",
+        "description": "",
+        "carsousel": true
     },
     {
         "imgUrl": "/images/women.jpg",
         "heading": "Sole breadwinner",
-        "description": ""
+        "place": "",
+        "description": "",
+        "carsousel": true
     },
     {
         "imgUrl": "/images/jaipur.jpg",
         "heading": "Light up the path",
-        "description": ""
+        "place": "Jaipure",
+        "description": "",
+        "carsousel": true
     }
 ]
