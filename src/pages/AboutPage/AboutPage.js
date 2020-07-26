@@ -14,7 +14,7 @@ export default function AboutPage() {
           <ul>
 
             <li> Hey!</li>
-            <li>We all have had time to ourselves, and each of us has spent it in our own ways trying to keep our minds working and selves busy. I'm sure somewhere it will say they have had a passion for photography since a very young age, a craft which I spent time improving upon by reading books and reseaching more about photography, editing and perspective designing.
+            <li>We all have had time to ourselves, and each of us has spent it in our own ways trying to keep our minds working and selves busy. If you look at my Instagram profile, I'm sure somewhere it will say that I have a passion for photography since a very young age, a craft which I spent time improving upon by reading books and reseaching more about photography, editing and perspective designing.
 
             </li>
             <li>
