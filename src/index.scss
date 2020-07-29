@@ -71,10 +71,6 @@ a {
     height: 100%;
 }
 
-.hide {
-    display: none !important;
-}
-
 .d-flex {
     display: flex;
 }
@@ -122,4 +118,21 @@ a {
 
 .mb-10 {
     margin-bottom: 10px;
+}
+
+.visible-xs {
+    display: none;
+    @media (max-width: 767px) {
+        display: block;
+    }
+}
+
+.hidden-xs {
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.d-none {
+    display: none !important;
 }

@@ -16,14 +16,16 @@ export default function Header(props) {
   return (
     <header>
       <Container>
-        <Link to="/" className="logo" title="color katha"><img className="img-responsive" src="/logo.png" alt="logo" /></Link >
-        <button className="navbar-toggle collapsed" data-toggle="collapse" onClick={() => { setshowNav(!showNav) }}>
-          <span className="sr-only hide">Toggle navigation</span>
-          <span className="icon-bar"></span>
-          <span className="icon-bar"></span>
-          <span className="icon-bar"></span>
-        </button>
-        <ul className={`nav-list ${showNav ? 'visible-xs' : 'hide-xs'} `}>
+        <div className="mobile-wrap">
+          <Link to="/" className="logo" title="color katha"><img className="img-responsive" src="/logo.png" alt="logo" /></Link >
+          <button className="visible-xs navbar-toggle collapsed" data-toggle="collapse" onClick={() => { setshowNav(!showNav) }}>
+            <span className="sr-only d-none">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+          </button>
+        </div>
+        <ul className={`nav-list ${showNav ? 'show-animation' : ''} `}>
           {
             LINKS.map(link => <li key={link.label}><NavLink to={link.path} title={link.label} activeClassName="active">{link.label}</NavLink ></li>)
           }

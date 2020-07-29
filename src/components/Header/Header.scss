@@ -16,6 +16,7 @@ header {
 
 .logo {
     width: 160px;
+    display: block;
 }
 
 .nav-list {
@@ -37,11 +38,11 @@ header {
         position: absolute;
         left: 0;
         right: 0;
-        display: none;
-        top: 59px;
+        top: -80px;
         padding: 20px;
-        &.visible-xs {
-            display: block;
+        transition: all 0.4s ease-in-out;
+        &.show-animation {
+            top: 59px;
         }
     }
 }
@@ -71,5 +72,17 @@ header {
         &:first-child {
             margin-top: 0;
         }
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        background: #1c3334;
+        z-index: 20;
     }
 }
