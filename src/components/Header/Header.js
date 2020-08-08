@@ -5,7 +5,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 const LINKS = [
   { path: '/about', label: 'About Us' },
-  { path: '/learning-videos', label: 'Learning Videos' },
+  { path: '/blogs', label: 'Blogs' },
 
 ]
 

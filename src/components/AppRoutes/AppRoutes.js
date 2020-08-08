@@ -5,7 +5,7 @@ import HomePage from '../../pages/HomePage/HomePage';
 import NotFoundPage from '../../pages/NotFoundPage/NotFoundPage';
 import AboutPage from '../../pages/AboutPage/AboutPage';
 import DetailsPage from '../../pages/DetailsPage/DetailsPage';
-import LearningVideoPage from '../../pages/LearningVideoPage/LearningVideoPage';
+import Blogs from '../../pages/Blogs/Blogs';
 
 const AppRoutes = () => (
   <BrowserRouter>
@@ -25,8 +25,8 @@ const AppRoutes = () => (
 
         <Route
           exact
-          path="/learning-videos"
-          component={LearningVideoPage}
+          path="/blogs"
+          component={Blogs}
         />
 
         <Route
