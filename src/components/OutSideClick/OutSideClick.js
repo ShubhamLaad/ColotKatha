@@ -6,14 +6,14 @@ export default function Content({ onClose, className, children }) {
         if (e.key === 'Escape') {
             onClose()
         }
-    }, [])
+    }, [onClose])
     const clickListener = useCallback(
         (e) => {
             if (!(ref.current).contains(e.target)) {
                 onClose() // using optional chaining here, change to onClose && onClose(), if required
             }
         },
-        [ref.current],
+        [onClose],
     )
     // Below is the 10 lines of code you need.
     useEffect(() => {
@@ -25,7 +25,7 @@ export default function Content({ onClose, className, children }) {
             document.removeEventListener('click', clickListener)
             document.removeEventListener('keyup', escapeListener)
         }
-    }, [])
+    }, [clickListener, escapeListener])
     return (
         <div
             ref={ref}
