@@ -74,6 +74,18 @@ header {
             margin-top: 0;
         }
     }
+
+    &.open {
+        .icon-bar-3 {
+            transform: translateY(-6px) rotate(-45deg);
+        }
+        .icon-bar-2 {
+            transform: rotate(45deg);
+        }
+        .icon-bar-1 {
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 767px) {

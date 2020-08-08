@@ -18,11 +18,11 @@ export default function Header(props) {
       <Container>
         <OutSideCilck className="mobile-wrap" onClose={() => { setshowNav(false) }}>
           <Link to="/" className="logo" title="color katha"><img className="img-responsive" src="/logo.png" alt="logo" /></Link >
-          <button className="visible-xs navbar-toggle collapsed" data-toggle="collapse" onClick={() => { setshowNav(!showNav) }}>
+          <button className={`visible-xs navbar-toggle ${showNav ? 'open' : 'close'}`} onClick={() => { setshowNav(!showNav) }}>
             <span className="sr-only d-none">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
+            <span className="icon-bar icon-bar-1"></span>
+            <span className="icon-bar icon-bar-2"></span>
+            <span className="icon-bar icon-bar-3"></span>
           </button>
         </OutSideCilck>
         <ul className={`nav-list ${showNav ? 'show-animation' : ''} `}>
